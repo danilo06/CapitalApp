@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">CapitalApp</string>
     <string name="textview">Selecciona la categoria a la cual pertenece tu gasto, o crea una nueva!</string>
+    <string name="esta_vista_esta_construida_de_tal_modo_que_por_el_momento_solo_funcionara_como_auxiliar_para_verificar_las_demas_actividades_tener_en_cuenta_que_lo_desarrollado_en_esta_primera_revision_esta_acoplado_a_lo_prometido_en_el_plan_de_trabajo_anterior_mente_entregado_para_esta_ocasion_el_documento_tambien_contiene_los_planos_propuestos_para_entregar_para_segundo_corte">Esta vista esta construida de tal modo que por el momento solo funcionara como auxiliar para verificar las demas actividades. Tener en cuenta que lo desarrollado en esta primera revision, esta acoplado a lo prometido en el plan de trabajo, anterior mente entregado. Para esta ocasion, el documento tambien contiene los planos propuestos para entregar para segundo corte. Por favor revisar el documetno enviado al correo, en el que se adjuntan los demas avances realizados.</string>
 </resources>

@@ -7,4 +7,26 @@
     android:layout_height="match_parent"
     tools:context=".Menu">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="360dp"
+        android:layout_height="347dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/esta_vista_esta_construida_de_tal_modo_que_por_el_momento_solo_funcionara_como_auxiliar_para_verificar_las_demas_actividades_tener_en_cuenta_que_lo_desarrollado_en_esta_primera_revision_esta_acoplado_a_lo_prometido_en_el_plan_de_trabajo_anterior_mente_entregado_para_esta_ocasion_el_documento_tambien_contiene_los_planos_propuestos_para_entregar_para_segundo_corte"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clickButton"
+        android:text="VistaMenuDeGatos-Preeliminar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.114" />
 </androidx.constraintlayout.widget.ConstraintLayout>
