@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CapitalApp</string>
+    <string name="textview">Selecciona la categoria a la cual pertenece tu gasto, o crea una nueva!</string>
 </resources>
