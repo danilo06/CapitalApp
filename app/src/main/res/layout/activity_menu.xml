@@ -9,34 +9,212 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="360dp"
-        android:layout_height="347dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="@string/esta_vista_esta_construida_de_tal_modo_que_por_el_momento_solo_funcionara_como_auxiliar_para_verificar_las_demas_actividades_tener_en_cuenta_que_lo_desarrollado_en_esta_primera_revision_esta_acoplado_a_lo_prometido_en_el_plan_de_trabajo_anterior_mente_entregado_para_esta_ocasion_el_documento_tambien_contiene_los_planos_propuestos_para_entregar_para_segundo_corte"
-        android:textSize="20sp"
+        android:text="CAPITAL APP"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="148dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="249dp"
+        android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="162dp"
-        android:layout_height="61dp"
-        android:onClick="clickButton"
-        android:text="VistaMenuDeGatos-Preeliminar"
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.132"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.391" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="169dp"
-        android:layout_height="220dp"
-        android:layout_marginEnd="32dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:srcCompat="@drawable/captura" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/Button"
+                android:layout_width="383dp"
+                android:layout_height="151dp"
+                android:onClick="clickButton"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/pantalla1" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="150dp"
+                    android:layout_height="108dp"
+                    android:layout_marginStart="16dp"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/pantalla2" />
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="234dp"
+                    android:layout_height="104dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="7dp"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/pantalla3" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="125dp"
+                    android:layout_height="112dp"
+                    android:layout_marginEnd="16dp"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/pantalla5" />
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="246dp"
+                    android:layout_height="107dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginBottom="1dp"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.666"
+                    app:srcCompat="@drawable/pantalla4" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton8"
+                    android:layout_width="125dp"
+                    android:layout_height="112dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/pantalla5"
+                    tools:layout_editor_absoluteX="270dp"
+                    tools:layout_editor_absoluteY="0dp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton7"
+                    android:layout_width="125dp"
+                    android:layout_height="112dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/pantalla5"
+                    tools:layout_editor_absoluteX="270dp"
+                    tools:layout_editor_absoluteY="0dp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton9"
+                    android:layout_width="125dp"
+                    android:layout_height="112dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/pantalla5"
+                    tools:layout_editor_absoluteX="270dp"
+                    tools:layout_editor_absoluteY="0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton10"
+                    android:layout_width="125dp"
+                    android:layout_height="112dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/pantalla5"
+                    tools:layout_editor_absoluteX="270dp"
+                    tools:layout_editor_absoluteY="0dp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton11"
+                    android:layout_width="125dp"
+                    android:layout_height="112dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/pantalla5"
+                    tools:layout_editor_absoluteX="270dp"
+                    tools:layout_editor_absoluteY="0dp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton12"
+                    android:layout_width="125dp"
+                    android:layout_height="112dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/pantalla5"
+                    tools:layout_editor_absoluteX="270dp"
+                    tools:layout_editor_absoluteY="0dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton13"
+                    android:layout_width="125dp"
+                    android:layout_height="112dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/pantalla5"
+                    tools:layout_editor_absoluteX="270dp"
+                    tools:layout_editor_absoluteY="0dp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton14"
+                    android:layout_width="125dp"
+                    android:layout_height="112dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/pantalla5"
+                    tools:layout_editor_absoluteX="270dp"
+                    tools:layout_editor_absoluteY="0dp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton15"
+                    android:layout_width="125dp"
+                    android:layout_height="112dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/pantalla5"
+                    tools:layout_editor_absoluteX="270dp"
+                    tools:layout_editor_absoluteY="0dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
