@@ -21,13 +21,17 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="148dp"
+        android:layout_width="227dp"
         android:layout_height="36dp"
         android:layout_marginStart="14dp"
-        android:layout_marginTop="34dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="249dp"
-        android:text="TextView"
+        android:clickable="false"
+        android:text="Bienvenido USER!"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
