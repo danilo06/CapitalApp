@@ -9,7 +9,8 @@ Como parte de apropiacion de los nuevos temas, el estudiante Danilo Beleño desa
 * * *
 
 ## Resultado ##
-Resutado
+>Resutado
+>
 ![Menu construido](https://github.com/danilo06/CapitalApp/tree/master/resourcesreadme/Menu1.png)
 
 
