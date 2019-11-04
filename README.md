@@ -4,8 +4,7 @@ Como parte de apropiacion de los nuevos temas, el estudiante Danilo Beleño desa
 * * *
 *   [Resultado](#Resultado)
 *   [Desarrollo del  Proyecto](#Desarrollo)
-    *   [Project 1](#filosofía)
-    *   [Project 2](#html-en-línea)
+    *   [Problematica](#Problematica)
 
 * * *
 
@@ -14,6 +13,8 @@ Resutado
 
 ## Desarrollo ##
 Desarrollo
+
+## Problematica ##
 
 ## Ayudas
 ### Configuración
