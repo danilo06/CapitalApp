@@ -5,15 +5,17 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 
-class   Main : AppCompatActivity() {
+class Registrar : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.registrar)
     }
 
-    fun starLogin(view: View){
+    fun iniciar(view: View){
         val intent = Intent(this, Login::class.java)
         startActivity(intent)
     }
+
+
 }

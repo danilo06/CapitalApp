@@ -55,7 +55,7 @@
                 android:layout_width="383dp"
                 android:layout_height="151dp"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/pantalla1" />
+                app:srcCompat="@drawable/pantalla1"/>
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/linearLayout3"
