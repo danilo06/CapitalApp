@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="CAPITAL APP"
+        android:text="@string/capital_app"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.95"
@@ -191,7 +191,12 @@
                     app:layout_constraintVertical_bias="1.0"
                     app:srcCompat="@drawable/pantalla9" />
             </androidx.constraintlayout.widget.ConstraintLayout>
-
+            <ImageButton
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="151dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/pantalla10" />
         </LinearLayout>
     </ScrollView>
 
