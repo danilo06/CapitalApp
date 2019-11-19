@@ -16,4 +16,10 @@ class Menu : AppCompatActivity() {
         val intent = Intent(this, co.edu.uan.capitalapp.AgendaDeGastos::class.java)
         startActivity(intent)
     }
+
+    fun clickTips(view: View){
+        val intent = Intent(this, co.edu.uan.capitalapp.Tips::class.java)
+        startActivity(intent)
+    }
+
 }

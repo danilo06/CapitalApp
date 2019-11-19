@@ -5,7 +5,8 @@
     android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Menu">
+    tools:context=".Menu"
+    android:background="@drawable/wp2">
 
     <TextView
         android:id="@+id/textView2"
@@ -27,7 +28,7 @@
         android:layout_marginTop="4dp"
         android:layout_marginEnd="249dp"
         android:clickable="false"
-        android:text="Bienvenido USER!"
+        android:text="Bienvenido Danilo!"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -55,7 +56,8 @@
                 android:layout_width="383dp"
                 android:layout_height="151dp"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/pantalla1"/>
+                app:srcCompat="@drawable/pantalla1"
+                />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/linearLayout3"
@@ -70,6 +72,7 @@
                     android:layout_height="108dp"
                     android:layout_marginStart="15dp"
                     android:layout_marginEnd="20dp"
+                    android:onClick="clickTips"
                     android:scaleType="centerCrop"
                     app:layout_constraintEnd_toStartOf="@+id/imageButton2"
                     app:layout_constraintHorizontal_bias="0.0"
