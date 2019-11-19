@@ -43,7 +43,7 @@
             android:onClick="starLogin"/>
 
         <Button
-            android:id="@+id/inicar_facebook"
+            android:id="@+id/iniciar_facebook"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"

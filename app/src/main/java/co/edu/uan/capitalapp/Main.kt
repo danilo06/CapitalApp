@@ -16,4 +16,13 @@ class   Main : AppCompatActivity() {
         val intent = Intent(this, Login::class.java)
         startActivity(intent)
     }
+
+    fun starFacebook(view: View){
+
+        alert("Testing alerts") {
+            title("Alert")
+            yesButton { toast("Yess!!!") }
+            noButton { }
+        }.show()
+    }
 }
