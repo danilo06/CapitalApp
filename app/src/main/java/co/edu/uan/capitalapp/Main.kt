@@ -3,6 +3,7 @@ package co.edu.uan.capitalapp
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 class   Main : AppCompatActivity() {
@@ -18,11 +19,6 @@ class   Main : AppCompatActivity() {
     }
 
     fun starFacebook(view: View){
-
-        alert("Testing alerts") {
-            title("Alert")
-            yesButton { toast("Yess!!!") }
-            noButton { }
-        }.show()
+        Toast.makeText(applicationContext,"Aun no ha sido implementado, muy pronto!", Toast.LENGTH_SHORT).show()
     }
 }

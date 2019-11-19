@@ -66,6 +66,5 @@ class Tips : AppCompatActivity() {
         }
         tipslist.addView(ib)
         tipslist.addView(text)
-
     }
 }

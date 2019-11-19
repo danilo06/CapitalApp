@@ -51,6 +51,7 @@
             android:layout_marginBottom="30dp"
             android:background="@drawable/btn_facebook"
             android:elevation="5dp"
+            android:onClick="starFacebook"
             android:text="Inciar con Facebook"
             android:textAllCaps="false"
             android:textColor="#fff"

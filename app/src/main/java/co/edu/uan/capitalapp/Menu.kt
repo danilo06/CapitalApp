@@ -22,4 +22,9 @@ class Menu : AppCompatActivity() {
         startActivity(intent)
     }
 
+    fun clickHorasExtra(view: View){
+        val intent = Intent(this, co.edu.uan.capitalapp.HorasExtra::class.java)
+        startActivity(intent)
+    }
+
 }

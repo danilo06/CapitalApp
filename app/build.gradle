@@ -21,6 +21,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+
 }
 
 dependencies {
@@ -38,4 +40,4 @@ dependencies {
     compile 'com.daimajia.easing:library:2.0@aar'
     compile 'com.daimajia.androidanimations:library:2.3@aar'
     implementation 'androidx.gridlayout:gridlayout:1.0.0'
-}
+    }

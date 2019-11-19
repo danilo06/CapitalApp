@@ -20,5 +20,6 @@
         <activity android:name=".Login"></activity>
         <activity android:name=".Registrar"></activity>
         <activity android:name=".Tips"></activity>
+        <activity android:name=".HorasExtra"></activity>
     </application>
 </manifest>
