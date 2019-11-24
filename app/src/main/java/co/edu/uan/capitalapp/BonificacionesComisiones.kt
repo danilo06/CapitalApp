@@ -5,15 +5,15 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 
-class NominaSalario : AppCompatActivity() {
+class BonificacionesComisiones : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.nomina_salario)
+        setContentView(R.layout.bonificaciones_comisiones)
     }
 
-    fun siguienteSalario(view: View) {
-        val intent = Intent(this, NominaHoraExtra::class.java)
+    fun chageToPrestamos(view: View) {
+        val intent = Intent(this, PrestamoEmbargoFondo::class.java)
         startActivity(intent)
     }
 

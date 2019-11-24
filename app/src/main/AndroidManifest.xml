@@ -23,6 +23,8 @@
         <activity android:name=".HorasExtra"></activity>
         <activity android:name=".NominaHoraExtra"></activity>
         <activity android:name=".NominaSalario"></activity>
+        <activity android:name=".BonificacionesComisiones"></activity>
+        <activity android:name=".PrestamoEmbargoFondo"></activity>
 
     </application>
 </manifest>

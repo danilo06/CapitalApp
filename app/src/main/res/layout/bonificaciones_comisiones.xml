@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NominaSalario">
+    tools:context=".BonificacionesComisiones">
 
     <ImageView
         android:layout_width="match_parent"
@@ -29,11 +29,13 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="523dp"
-            android:layout_marginTop="2dp"
             android:layout_marginLeft="25dp"
+            android:layout_marginTop="2dp"
             android:layout_marginRight="25dp"
+            android:layout_marginBottom="25dp"
             android:gravity="center"
             android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/iniciar_sesion"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView">
@@ -42,7 +44,7 @@
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Salario"
+                android:text="Bonificaciones"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
@@ -62,7 +64,7 @@
                     android:textSize="16sp" />
 
                 <EditText
-                    android:id="@+id/editTextSalarioEmpleado1"
+                    android:id="@+id/editTextBonificacionEmpleado1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -86,7 +88,7 @@
                     android:textSize="16sp" />
 
                 <EditText
-                    android:id="@+id/editTextSalarioEmpleado2"
+                    android:id="@+id/editTextBonificacionEmpleado2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -110,7 +112,7 @@
                     android:textSize="16sp" />
 
                 <EditText
-                    android:id="@+id/editTextSalarioEmpleado3"
+                    android:id="@+id/editTextBonificacionEmpleado3"
                     android:layout_width="wrap_content"
 
                     android:layout_height="wrap_content"
@@ -135,7 +137,7 @@
                     android:textSize="16sp" />
 
                 <EditText
-                    android:id="@+id/editTextSalarioEmpleado4"
+                    android:id="@+id/editTextBonificacionEmpleado4"
                     android:layout_width="wrap_content"
 
                     android:layout_height="wrap_content"
@@ -160,22 +162,22 @@
                     android:textSize="16sp" />
 
                 <EditText
-                    android:id="@+id/editTextSalarioEmpleado5"
+                    android:id="@+id/editTextBonificacionEmpleado5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
                     android:inputType="numberDecimal" />
             </LinearLayout>
+
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/textView6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Auxilio Transporte"
+                android:layout_marginTop="20dp"
+                android:text="Comisiones"
                 android:textSize="24sp"
-                android:textStyle="bold"
-                android:layout_marginTop="30dp"
-                android:layout_marginBottom="20dp"/>
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -184,20 +186,23 @@
                 android:layout_marginRight="20dp"
                 android:gravity="center"
                 android:orientation="horizontal">
-                <RadioButton
-                    android:id="@+id/radioButtonAuxilioTransporteEmpleado1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="Empleado 1" />
-                <RadioButton
-                    android:id="@+id/radioButtonAuxilioTransporteEmpleado4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="Empleado 4" />
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Empleado 1 :"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/editTextComisionEmpleado1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -206,19 +211,22 @@
                 android:gravity="center"
                 android:orientation="horizontal">
 
-                <RadioButton
-                    android:id="@+id/radioButtonAuxilioTransporteEmpleado2"
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Empleado 2 :"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/editTextComisionEmpleado2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Empleado 2" />
-                <RadioButton
-                    android:id="@+id/radioButtonAuxilioTransporteEmpleado5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="Empleado 5" />
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -227,12 +235,70 @@
                 android:gravity="center"
                 android:orientation="horizontal">
 
-                <RadioButton
-                    android:id="@+id/radioButtonAuxilioTransporteEmpleado3"
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Empleado 3 :"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/editTextComisionEmpleado3"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Empleado 4 :"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/editTextComisionEmpleado4"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Empleado 5 :"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/editTextComisionEmpleado5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Empleado 3" />
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
             </LinearLayout>
         </LinearLayout>
 
@@ -249,8 +315,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            android:onClick="siguienteSalario"/>
-
+            android:onClick="chageToPrestamos"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </RelativeLayout>

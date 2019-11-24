@@ -130,7 +130,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="151dp"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/pantalla6" />
+                app:srcCompat="@drawable/pantalla6"
+                android:onClick="clickNomina"/>
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/linearLayout7"
