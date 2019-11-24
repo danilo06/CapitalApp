@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login">
+    tools:context=".NominaSalario">
 
     <ImageView
         android:layout_width="match_parent"
@@ -55,7 +55,6 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="registrar"
                     android:text="Empleado 1 :"
                     android:textColor="#fff"
                     android:textSize="16sp" />
@@ -63,11 +62,10 @@
                 <EditText
                     android:id="@+id/editTextSalarioEmpleado1"
                     android:layout_width="wrap_content"
-
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <LinearLayout
@@ -81,7 +79,6 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="registrar"
                     android:text="Empleado 2 :"
                     android:textColor="#fff"
                     android:textSize="16sp" />
@@ -89,11 +86,10 @@
                 <EditText
                     android:id="@+id/editTextSalarioEmpleado2"
                     android:layout_width="wrap_content"
-
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <LinearLayout
@@ -107,7 +103,6 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="registrar"
                     android:text="Empleado 3 :"
                     android:textColor="#fff"
                     android:textSize="16sp" />
@@ -119,7 +114,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <LinearLayout
@@ -133,7 +128,6 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="registrar"
                     android:text="Empleado 4 :"
                     android:textColor="#fff"
                     android:textSize="16sp" />
@@ -145,7 +139,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
 
             <LinearLayout
@@ -159,7 +153,6 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="registrar"
                     android:text="Empleado 5 :"
                     android:textColor="#fff"
                     android:textSize="16sp" />
@@ -170,7 +163,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="numberDecimal" />
             </LinearLayout>
             <TextView
                 android:id="@+id/textView4"
@@ -248,7 +241,6 @@
             android:layout_marginBottom="39dp"
             android:background="@drawable/btn_fondo_color"
             android:elevation="5dp"
-            android:onClick="iniciarSesion"
             android:text="Siguiente"
             android:textColor="#fff"
             android:textSize="16sp"

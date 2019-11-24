@@ -27,4 +27,9 @@ class Menu : AppCompatActivity() {
         startActivity(intent)
     }
 
+    fun clickNomina(view: View){
+        val intent = Intent(this, co.edu.uan.capitalapp.NominaSalario::class.java)
+        startActivity(intent)
+    }
+
 }

@@ -21,5 +21,8 @@
         <activity android:name=".Registrar"></activity>
         <activity android:name=".Tips"></activity>
         <activity android:name=".HorasExtra"></activity>
+        <activity android:name=".NominaHoraExtra"></activity>
+        <activity android:name=".NominaSalario"></activity>
+
     </application>
 </manifest>

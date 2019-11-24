@@ -62,5 +62,4 @@ class HorasExtra : AppCompatActivity() {
         total += (valorHora * 2.5) * nocturnaFestiva
         return total
     }
-
 }
