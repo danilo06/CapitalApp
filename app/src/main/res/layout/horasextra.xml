@@ -75,7 +75,8 @@
                     android:layout_weight="1"
                     android:ems="10"
                     android:inputType="numberDecimal"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:hint="0"/>
             </LinearLayout>
 
             <LinearLayout
@@ -98,7 +99,8 @@
                     android:layout_weight="1"
                     android:ems="10"
                     android:inputType="numberDecimal"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:hint="0"/>
             </LinearLayout>
 
             <TextView
@@ -136,7 +138,8 @@
                     android:background="@drawable/input"
                     android:ems="10"
                     android:inputType="numberDecimal"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:hint="0"/>
             </LinearLayout>
 
             <LinearLayout
@@ -164,7 +167,8 @@
                     android:background="@drawable/input"
                     android:ems="10"
                     android:inputType="numberDecimal"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:hint="0"/>
             </LinearLayout>
 
             <LinearLayout
@@ -191,7 +195,8 @@
                     android:background="@drawable/input"
                     android:ems="10"
                     android:inputType="numberDecimal"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:hint="0"/>
             </LinearLayout>
 
             <LinearLayout
@@ -218,7 +223,8 @@
                     android:background="@drawable/input"
                     android:ems="10"
                     android:inputType="numberDecimal"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:hint="0"/>
             </LinearLayout>
 
             <LinearLayout
@@ -245,7 +251,8 @@
                     android:background="@drawable/input"
                     android:ems="10"
                     android:inputType="numberDecimal"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:hint="0"/>
             </LinearLayout>
 
             <LinearLayout
@@ -261,7 +268,7 @@
                     android:layout_marginTop="@dimen/default_gap"
                     android:layout_marginRight="@dimen/default_gap"
                     android:background="@drawable/btn_redondeo_menu"
-                    android:onClick="calcular"
+                    android:onClick="Run"
                     android:text="Calcular!" />
 
                 <EditText

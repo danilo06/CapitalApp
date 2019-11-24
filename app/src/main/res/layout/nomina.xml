@@ -2,61 +2,260 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/wp" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="244dp"
-        android:layout_height="188dp"
-        android:background="@color/white"
-        app:srcCompat="@drawable/nomina" />
-
-    <TextView
-        android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Bienvenido!"
-        android:textAlignment="center"
-        android:textSize="30sp" />
+        android:scaleType="centerCrop"
+        android:src="@drawable/fondo2" />
 
-    <ScrollView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/white">
+        android:background="#B0181717">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:src="@drawable/titulo1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="403dp"
+            android:layout_height="523dp"
+            android:layout_marginTop="2dp"
             android:gravity="center"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView">
 
-            <androidx.constraintlayout.widget.ConstraintLayout
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Salario"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView5"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="TextView" />
+                    android:onClick="registrar"
+                    android:text="Empleado 1 :"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
 
-                <Button
-                    android:id="@+id/button"
-                    android:layout_width="149dp"
-                    android:layout_height="44dp"
-                    android:text="Siguiente"
-                    tools:layout_editor_absoluteX="131dp"
-                    tools:layout_editor_absoluteY="37dp" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
+                <EditText
+                    android:id="@+id/editTextSalarioEmpleado1"
+                    android:layout_width="wrap_content"
 
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="registrar"
+                    android:text="Empleado 2 :"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/editTextSalarioEmpleado2"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="registrar"
+                    android:text="Empleado 3 :"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/editTextSalarioEmpleado3"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="registrar"
+                    android:text="Empleado 4 :"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/editTextSalarioEmpleado4"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="registrar"
+                    android:text="Empleado 5 :"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/editTextSalarioEmpleado5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Auxilio Transporte"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/radioButtonAuxilioTransporteEmpleado1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Empleado 1" />
+                <RadioButton
+                    android:id="@+id/radioButtonAuxilioTransporteEmpleado4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Empleado 4" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButtonAuxilioTransporteEmpleado2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Empleado 2" />
+                <RadioButton
+                    android:id="@+id/radioButtonAuxilioTransporteEmpleado5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Empleado 5" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButtonAuxilioTransporteEmpleado3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Empleado 3" />
+            </LinearLayout>
         </LinearLayout>
-    </ScrollView>
+
+        <Button
+            android:id="@+id/iniciar_sesion"
+            android:layout_width="303dp"
+            android:layout_height="43dp"
+            android:layout_marginBottom="39dp"
+            android:background="@drawable/btn_fondo_color"
+            android:elevation="5dp"
+            android:onClick="iniciarSesion"
+            android:text="Siguiente"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </RelativeLayout>
