@@ -25,6 +25,7 @@
         <activity android:name=".NominaSalario"></activity>
         <activity android:name=".BonificacionesComisiones"></activity>
         <activity android:name=".PrestamoEmbargoFondo"></activity>
+        <activity android:name=".Resultado"></activity>
 
     </application>
 </manifest>

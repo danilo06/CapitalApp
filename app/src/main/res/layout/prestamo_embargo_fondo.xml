@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NominaSalario">
+    tools:context=".PrestamoEmbargoFondo">
 
     <ImageView
         android:layout_width="match_parent"
@@ -194,13 +194,13 @@
                     android:layout_marginRight="20dp"
                     android:gravity="center"
                     android:orientation="horizontal">
-                    <RadioButton
+                    <CheckBox
                         android:id="@+id/radioButtonEmbargoEmpleado1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="Empleado 1" />
-                    <RadioButton
+                    <CheckBox
                         android:id="@+id/radioButtonEmbargoEmpleado4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -216,13 +216,13 @@
                     android:gravity="center"
                     android:orientation="horizontal">
 
-                    <RadioButton
+                    <CheckBox
                         android:id="@+id/radioButtonEmbargoEmpleado2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="Empleado 2" />
-                    <RadioButton
+                    <CheckBox
                         android:id="@+id/radioButtonEmbargoEmpleado5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -237,7 +237,7 @@
                     android:gravity="center"
                     android:orientation="horizontal">
 
-                    <RadioButton
+                    <CheckBox
                         android:id="@+id/radioButtonEmbargoEmpleado3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -261,13 +261,13 @@
                     android:layout_marginRight="20dp"
                     android:gravity="center"
                     android:orientation="horizontal">
-                    <RadioButton
+                    <CheckBox
                         android:id="@+id/radioButtonFondoEmpleado1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="Empleado 1" />
-                    <RadioButton
+                    <CheckBox
                         android:id="@+id/radioButtonFondoEmpleado4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -283,13 +283,13 @@
                     android:gravity="center"
                     android:orientation="horizontal">
 
-                    <RadioButton
+                    <CheckBox
                         android:id="@+id/radioButtonFondoEmpleado2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="Empleado 2" />
-                    <RadioButton
+                    <CheckBox
                         android:id="@+id/radioButtonFondoEmpleado5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -304,7 +304,7 @@
                     android:gravity="center"
                     android:orientation="horizontal">
 
-                    <RadioButton
+                    <CheckBox
                         android:id="@+id/radioButtonFondoEmpleado3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -327,6 +327,6 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            android:onClick="siguienteSalario"/>
+            android:onClick="siguienteResultado"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </RelativeLayout>

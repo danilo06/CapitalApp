@@ -184,13 +184,13 @@
                 android:layout_marginRight="20dp"
                 android:gravity="center"
                 android:orientation="horizontal">
-                <RadioButton
+                <CheckBox
                     android:id="@+id/radioButtonAuxilioTransporteEmpleado1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Empleado 1" />
-                <RadioButton
+                <CheckBox
                     android:id="@+id/radioButtonAuxilioTransporteEmpleado4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -206,13 +206,13 @@
                 android:gravity="center"
                 android:orientation="horizontal">
 
-                <RadioButton
+                <CheckBox
                     android:id="@+id/radioButtonAuxilioTransporteEmpleado2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Empleado 2" />
-                <RadioButton
+                <CheckBox
                     android:id="@+id/radioButtonAuxilioTransporteEmpleado5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -227,12 +227,14 @@
                 android:gravity="center"
                 android:orientation="horizontal">
 
-                <RadioButton
+                <CheckBox
                     android:id="@+id/radioButtonAuxilioTransporteEmpleado3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Empleado 3" />
+
+
             </LinearLayout>
         </LinearLayout>
 
